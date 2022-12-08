@@ -1,0 +1,26 @@
+Funções
+
+```{r}
+
+# funcao que retorna diretório padrão do R (nao precisa passar parametro)
+getwd()
+
+# sem parenteses
+
+# função que calcula o desvio padrão
+sd
+
+
+# exemplo de como chamar uma função dando nome aos parâmetros ou não
+head(x=iris, n=2)
+
+head(iris)
+
+head(iris, 2)
+
+# retorna um erro pois não passou todos os parâmetros necessários
+head(n=22)
+
+
+```
+
