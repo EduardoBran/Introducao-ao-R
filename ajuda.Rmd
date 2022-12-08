@@ -1,0 +1,9 @@
+```{r}
+# acessando ajuda da funcao sd
+
+help(sd)
+
+help(iris)
+
+```
+
