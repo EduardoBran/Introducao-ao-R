@@ -1,0 +1,50 @@
+Tipos de Dados e Operadores
+
+```{r}
+# declaração implícita numérica
+delta = 8
+# imprime no console
+print(delta)
+# verifica o tipo
+class(delta)
+```
+
+
+```{r}
+# L declara como inteiro
+delta = 18L
+class(delta) # verifica o tipo
+```
+
+```{r}
+# Outros tipos
+logico = TRUE
+falso = F
+caractere = "Texto"
+caractere2 = 'Texto'
+```
+
+```{r}
+# Operações Matemáticas
+c = 2
+d = 4
+e = c + d
+f = (c + d) * e
+e
+f
+```
+
+```{r}
+# Testes Lógicos
+a = 1
+b = 2
+a < b
+c = a == b
+c
+```
+
+```{r}
+# Raiz quadrada
+sqrt(25)
+```
+
