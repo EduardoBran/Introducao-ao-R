@@ -1,0 +1,39 @@
+Importando Dados
+Vamos ver dois formatos principais de importação de dados
+
+```{r}
+
+# Instalando pacote para importar planilha de excel
+# install.packages("readxl")
+
+# carregando o pacote (necessario para importar aquivo excel)
+library(readxl)
+
+```
+
+```{r}
+
+# importando arquivo de texto
+
+# escolhendo o caminho do arquivo caminho do arquivo
+
+arquivo = read.csv(file.choose(), header = TRUE, sep = ",")
+# exibindo o arquivo no console
+arquivo
+
+# vai procurar o arquivo no diretório onde está o 'importando_dados.Rmd' sem necessidade de procurar o arquivo
+
+arquivo = read.csv("Anaconda.txt", header = TRUE, sep = ",")
+# exibindo o arquivo no console
+arquivo
+
+```
+
+```{r}
+
+# importando arquivo excel
+
+arquivo = read_xlsx(file.choose())
+arquivo
+
+```

@@ -1,0 +1,71 @@
+Para abrir o Jupyter lab
+
+- Abrir Anaconda Prompt e Digitar
+
+jupyter-lab
+
+- Irá abrir direto no navegador
+
+
+
+
+
+
+
+*************************** R **********************
+
+
+- Criar um vetor no R
+
+X <- c(1,2,3,4,5,6)
+
+
+*** Principais Funções ***
+
+- Visualizar primeiras linhas de um conjundo de dados
+
+head()
+
+- Visualizar últimas linhas de um conjundo de dados
+
+tail()
+
+- Resumo estatístico de um conjundo de dados
+
+summary()
+
+- Caminho de arquivos
+
+file.choose()
+
+- Dimensões de um conjunto de dados (nº colunas e nº linhas)
+
+dim()
+
+- Comprimento de um vetor
+
+length()
+
+- Nomes das colunas de um conjunto de dados
+
+colnames()
+
+- Nomes das linhas de um conjunto de dados
+
+rownames()
+
+- Adiciona colunas
+
+colbind()
+
+
+
+
+
+ctrl l -> limpa console
+
+ctrl alt i -> abri um notebook dentro do código
+
+ctrl shift enter -> roda toda o notebook
+
+ctrl enter -> roda somente a linha
