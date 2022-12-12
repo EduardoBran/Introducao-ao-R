@@ -1,0 +1,104 @@
+*** Desafio Prática em R ***
+
+1) Crie duas variáveis Ana e Paulo e atribua a elas valores de suas idades, sendo respectivamente 8 e 12 anos. As variáveis devem ser do tipo inteiro. Imprimar no console "A menina é mais velha" ou "O menino é mais velho" como resultado de um teste lógico
+
+```{r}
+
+ana = 8
+paulo = 12
+
+if (ana > paulo){
+  print('A menina é mais velha')
+}else{
+  print('O menino é mais velho')
+}
+
+```
+
+
+2) BOD é um objeto existem no R. Verifique qual a classe deste objeto
+
+```{r}
+
+class(BOD)
+
+```
+
+
+3) Crie um vetor que armazene números de 1 a 10 e posteriormente imrprima os valores pares.
+
+```{r}
+
+vet = c(1,2,3,4,5,6,7,8,9,10)
+
+for (i in vet) {
+  if (i%%2==0){
+    print(i)
+  }
+}
+
+```
+
+
+4) women é um dataframe existente no R. Imprima as 10 últimas linhas.
+
+```{r}
+
+tail(women, n=10)
+
+```
+
+
+5) Use a função plot do R para produzir um gráfico dos atributos Sepal.Width e Petal.Length do conjunto de dados Iris. O gráfico deve imprimir apenas das linhas 50 até 100.
+
+```{r}
+
+iris[c(1)] # exibe somente a primeira coluna (Sepal.Length)
+iris[c(2,3)] # exibe as colunas 2 e 3 (Sepal.Width e Petal.Length)
+
+novaIris = iris[50:100, c(2,3)] # exibe entre as linhas 50 e 100 as colunas 2 e 3 (Sepal.Width e Petal.Length)
+novaIris
+
+plot(novaIris) # cria o gráfico
+
+
+
+# c em R significa um vetor, então vou passar um vetor com as posições da colunas que quero, que são as colunas de posição 2 e 3.
+
+
+```
+
+
+6) Crie dois vetores de tamanhos iguais, some as posições equivalentes dos vetores e imprima o resultado.
+
+```{r}
+
+vet1 = c(1,2,3)
+vet2 = c(4,5,6)
+
+print(vet1 + vet2)
+
+```
+
+
+7) Imprima o número de linhas, de colunas, nomes das linhas e nome das colunas do conjunto de dados CO2.
+
+```{r}
+
+# número de linhas e colunas
+dim(CO2)
+
+# número de linhas
+dim(CO2)[1]
+
+# numero de colunas
+dim(CO2)[2]
+
+# nome das linhas
+rownames(CO2)
+
+# nome das colunas
+colnames(CO2)
+
+```
+
