@@ -1,5 +1,71 @@
 Estruturas de Programação
+
 ```{r}
 
+# if
+
+a = 8
+b = 20
+
+if (a < b){
+  print('verdadeiro')
+  
+} else {
+  print('falso')
+}
+
 ```
+
+```{r}
+
+# ifelse
+
+a = 5
+
+x = ifelse(a > 10, "A é Maior", "A NÃO é maior")
+x
+
+```
+
+```{r}
+
+# For
+
+c = 5
+
+for (i in 1:c) {
+  print(i)
+}
+
+```
+
+```{r}
+
+# while
+
+a = 1
+
+while (a <= 10) {
+  print(a)
+  a = a + 1
+}
+
+```
+
+```{r}
+
+# Função
+
+parOuImpar <- function(x) {
+  
+  return(ifelse(x%%2==0, "Par", "Ímpar"))
+}
+
+parOuImpar(5)
+parOuImpar(10)
+
+
+```
+
+
 
